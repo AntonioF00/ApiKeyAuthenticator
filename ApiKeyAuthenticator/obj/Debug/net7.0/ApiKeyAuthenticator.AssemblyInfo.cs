@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiKeyAuthenticator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+341d61a0fbfccf0f1b91a5c976ef9d9a1e0ecdce")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiKeyAuthenticator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiKeyAuthenticator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

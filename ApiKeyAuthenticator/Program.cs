@@ -5,8 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddScoped<ApiKeyAuthFilter>();
 builder.Services.AddLogging();
+
+//builder.UseApiAuthFilter();
 
 
 var app = builder.Build();

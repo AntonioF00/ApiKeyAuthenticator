@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rgHDBLLTPcKapMKEAD7LoDckL9Bok16QEdZoLtb/QTA=",
+  "Source": "ApiKeyAuthenticator",
+  "BasePath": "_content/ApiKeyAuthenticator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

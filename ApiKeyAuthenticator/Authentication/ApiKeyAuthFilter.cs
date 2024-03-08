@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace ApiKeyAuthenticator.Authentication
 {
-    public class ApiKeyAuthFilter : Attribute, IAuthorizationFilter
+    public class ApiKeyAuthFilter : IAuthorizationFilter
     {
         private readonly  IConfiguration            _configuration;
         private readonly  ILogger<ApiKeyAuthFilter> _logger;
