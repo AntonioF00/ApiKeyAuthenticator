@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddLogging();
 
-//builder.UseApiAuthFilter();
+builder.UseApiAuthFilter();
 
 
 var app = builder.Build();
@@ -20,7 +20,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseApiAuthMiddleware();
+//app.UseApiAuthMiddleware();
 
 app.UseAuthorization();
 
